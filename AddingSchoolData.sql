@@ -28,6 +28,23 @@ VALUES
  ('17','Vinícius Santos','2003-07-28','Masculino','Avenida da Amizade, 123','(11) 8901-2345','vinicius@email.com'), 
  ('18','Juliana Pereira','2006-09-01','Feminino','Rua das Rosas, 789','(11) 3456-7890','juliana@email.com');
 
+ INSERT into Professores
+ (
+   id_professor,
+   nome_professor,
+   data_nascimento_professor,
+   genero_professor,
+   telefone_contato_professor,
+   email_contato_professor
+   )
+   values 
+   ('1','Ana Oliveira','1980-05-25','Feminino','(11) 1234-5678','ana@email.com'), 
+   ('2','Carlos Ferreira','1975-09-12','Masculino','(11) 2345-6789','carlos@email.com'), 
+   ('3','Mariana Santos','1982-03-15','Feminino','(11) 3456-7890','mariana@email.com'), 
+   ('4','Ricardo Silva','1978-08-20','Masculino','(11) 7890-1234','ricardo@email.com'), 
+   ('5','Fernanda Lima','1985-01-30','Feminino','(11) 4567-8901','fernanda@email.com');
+ 
+
 INSERT into Disciplinas 
  (
    id_disciplina,
